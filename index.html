@@ -30,6 +30,9 @@
                 </li>
             </ul>
 
+            <input type="text" name="newelem" id="add-elem" v-model="newElem" 
+            @keyup.enter="toDoList.push({text : newElem, done : false}); newElem = ''">
+
         </div>
         <script type="text/javascript" src="./js/script.js"></script>
     </body>

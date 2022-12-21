@@ -29,7 +29,8 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            toDoList : toDoList
+            toDoList : toDoList,
+            newElem : ''
         }
     },
     methods: {
